@@ -1,0 +1,6 @@
+framework module Pods_Lectorem {
+  umbrella header "Pods-Lectorem-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1D22B92DE17BC5E0DE94268 /* Pods_Lectorem.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C3301268593B359344DB1EC /* Pods_Lectorem.framework */; };
+		F89F0C7D22BC9A9300403999 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F0C7C22BC9A9300403999 /* AppDelegate.swift */; };
+		F89F0C7F22BC9A9300403999 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89F0C7E22BC9A9300403999 /* ViewController.swift */; };
+		F89F0C8222BC9A9300403999 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89F0C8022BC9A9300403999 /* Main.storyboard */; };
+		F89F0C8422BC9A9400403999 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89F0C8322BC9A9400403999 /* Assets.xcassets */; };
+		F89F0C8722BC9A9400403999 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89F0C8522BC9A9400403999 /* LaunchScreen.storyboard */; };
+		F89F0C8F22BCA1DA00403999 /* TesseractOCR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89F0C8E22BCA1DA00403999 /* TesseractOCR.framework */; };
+		F89F0C9722C03A0C00403999 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = F89F0C9622C03A0B00403999 /* tessdata */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2C3301268593B359344DB1EC /* Pods_Lectorem.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lectorem.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51D0933530C6970B18E0ADD9 /* Pods-Lectorem.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lectorem.debug.xcconfig"; path = "Target Support Files/Pods-Lectorem/Pods-Lectorem.debug.xcconfig"; sourceTree = "<group>"; };
+		A9B97D86716799992B78C2CE /* Pods-Lectorem.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lectorem.release.xcconfig"; path = "Target Support Files/Pods-Lectorem/Pods-Lectorem.release.xcconfig"; sourceTree = "<group>"; };
+		F89F0C7922BC9A9300403999 /* Lectorem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lectorem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F0C7C22BC9A9300403999 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F89F0C7E22BC9A9300403999 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F89F0C8122BC9A9300403999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89F0C8322BC9A9400403999 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89F0C8622BC9A9400403999 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89F0C8822BC9A9400403999 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89F0C8E22BCA1DA00403999 /* TesseractOCR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TesseractOCR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89F0C9622C03A0B00403999 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89F0C7622BC9A9300403999 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F0C8F22BCA1DA00403999 /* TesseractOCR.framework in Frameworks */,
+				F1D22B92DE17BC5E0DE94268 /* Pods_Lectorem.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1351279DB90CEE9263243815 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F89F0C8E22BCA1DA00403999 /* TesseractOCR.framework */,
+				2C3301268593B359344DB1EC /* Pods_Lectorem.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA35A0891D5FAC9231EF12DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				51D0933530C6970B18E0ADD9 /* Pods-Lectorem.debug.xcconfig */,
+				A9B97D86716799992B78C2CE /* Pods-Lectorem.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F89F0C7022BC9A9300403999 = {
+			isa = PBXGroup;
+			children = (
+				F89F0C7B22BC9A9300403999 /* Lectorem */,
+				F89F0C7A22BC9A9300403999 /* Products */,
+				BA35A0891D5FAC9231EF12DC /* Pods */,
+				1351279DB90CEE9263243815 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F89F0C7A22BC9A9300403999 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89F0C7922BC9A9300403999 /* Lectorem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89F0C7B22BC9A9300403999 /* Lectorem */ = {
+			isa = PBXGroup;
+			children = (
+				F89F0C7C22BC9A9300403999 /* AppDelegate.swift */,
+				F89F0C7E22BC9A9300403999 /* ViewController.swift */,
+				F89F0C8022BC9A9300403999 /* Main.storyboard */,
+				F89F0C8322BC9A9400403999 /* Assets.xcassets */,
+				F89F0C9622C03A0B00403999 /* tessdata */,
+				F89F0C8522BC9A9400403999 /* LaunchScreen.storyboard */,
+				F89F0C8822BC9A9400403999 /* Info.plist */,
+			);
+			path = Lectorem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89F0C7822BC9A9300403999 /* Lectorem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89F0C8B22BC9A9400403999 /* Build configuration list for PBXNativeTarget "Lectorem" */;
+			buildPhases = (
+				DF3CF3BAD4D65EB7A79A74A5 /* [CP] Check Pods Manifest.lock */,
+				F89F0C7522BC9A9300403999 /* Sources */,
+				F89F0C7622BC9A9300403999 /* Frameworks */,
+				F89F0C7722BC9A9300403999 /* Resources */,
+				8B0A87FBC4371D0FE2F3FA59 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Lectorem;
+			productName = Lectorem;
+			productReference = F89F0C7922BC9A9300403999 /* Lectorem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89F0C7122BC9A9300403999 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Rods Company";
+				TargetAttributes = {
+					F89F0C7822BC9A9300403999 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F89F0C7422BC9A9300403999 /* Build configuration list for PBXProject "Lectorem" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89F0C7022BC9A9300403999;
+			productRefGroup = F89F0C7A22BC9A9300403999 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89F0C7822BC9A9300403999 /* Lectorem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89F0C7722BC9A9300403999 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F0C8722BC9A9400403999 /* LaunchScreen.storyboard in Resources */,
+				F89F0C9722C03A0C00403999 /* tessdata in Resources */,
+				F89F0C8422BC9A9400403999 /* Assets.xcassets in Resources */,
+				F89F0C8222BC9A9300403999 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B0A87FBC4371D0FE2F3FA59 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lectorem/Pods-Lectorem-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lectorem/Pods-Lectorem-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lectorem/Pods-Lectorem-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF3CF3BAD4D65EB7A79A74A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lectorem-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89F0C7522BC9A9300403999 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89F0C7F22BC9A9300403999 /* ViewController.swift in Sources */,
+				F89F0C7D22BC9A9300403999 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F89F0C8022BC9A9300403999 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89F0C8122BC9A9300403999 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89F0C8522BC9A9400403999 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89F0C8622BC9A9400403999 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89F0C8922BC9A9400403999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F89F0C8A22BC9A9400403999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89F0C8C22BC9A9400403999 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D0933530C6970B18E0ADD9 /* Pods-Lectorem.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4532C62U25;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Lectorem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodscompany.Lectorem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F89F0C8D22BC9A9400403999 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9B97D86716799992B78C2CE /* Pods-Lectorem.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4532C62U25;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = Lectorem/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rodscompany.Lectorem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89F0C7422BC9A9300403999 /* Build configuration list for PBXProject "Lectorem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F0C8922BC9A9400403999 /* Debug */,
+				F89F0C8A22BC9A9400403999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89F0C8B22BC9A9400403999 /* Build configuration list for PBXNativeTarget "Lectorem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89F0C8C22BC9A9400403999 /* Debug */,
+				F89F0C8D22BC9A9400403999 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F89F0C7122BC9A9300403999 /* Project object */;
+}
